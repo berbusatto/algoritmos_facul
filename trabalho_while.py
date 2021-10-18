@@ -5,16 +5,16 @@
 # algoritmo em PORTUGOL que seja capaz de calcular  e  imprimir o tempo necessário  para
 # que a população do país A ultrapasse a população do país B.
 
-# a = 5000000
-# b = 7000000
-# cont_ano = 0
-# while a <= b:
-#     a += (a * 0.03)
-#     b += (b * 0.02)
-#     cont_ano += 1
-#     # print(f'{cont_ano}, {a:.1f}, {b:.1f},')
-#     # print('-------')
-# print(cont_ano)
+a = 5000000
+b = 7000000
+cont_ano = 0
+while a <= b:
+    a += (a * 0.03)
+    b += (b * 0.02)
+    cont_ano += 1
+    # print(f'{cont_ano}, {a:.1f}, {b:.1f},')
+    # print('-------')
+print(cont_ano)
 
 #############################
 # EXERCÍCIO 2
